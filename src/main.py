@@ -25,7 +25,7 @@ try:
 except:
     default_logger.exception("error during import")
 
-APP_TITLE = "MS-rbw"
+APP_TITLE = "MS-Visionify"
 VERSION = 1.0
 
 def destroy_child_widgets(parent):
@@ -220,7 +220,7 @@ class MainScreen(tk.Frame):
 
         for x in range(5):
             self.macro_info_frame.grid_columnconfigure(x, weight=1)
-        self.log("MS-rbw", VERSION)
+        self.log("MS-Visionify", VERSION)
         self.log("해당 프로그램 사용시 발생하는 모든 제재사항 및 불이익은 사용자에게 있습니다")
 
         self.master.protocol("WM_DELETE_WINDOW", self.onClose)
