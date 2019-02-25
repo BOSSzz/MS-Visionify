@@ -24,6 +24,8 @@ with the game.
 * Keras
 * pythoncom, pyHook (optional, for debugging)
 
+This authentication-enabled version also requires
+* requests
 ### Note of regard to code users
 *Commercial usage of the following code is free of will, but discouraged.* This project was not intended to be commercialized, and was
 only for research purposes and proof-of-concept. Any malicious uses of the following code can result in
